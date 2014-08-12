@@ -26,5 +26,9 @@ describe 'fizz_buzz' do
     expect(is_divisible_by_fifteen?(1)).to be false
   end
 
+  it 'should say "Fizz" if a number is divisible by three' do
+    expect(fizz_buzz(3)).to eq "Fizz"
+  end
+
 end
 
