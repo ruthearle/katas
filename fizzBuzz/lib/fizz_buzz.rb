@@ -7,3 +7,4 @@
     number % 5 == 0
   end
 
+
