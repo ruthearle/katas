@@ -30,7 +30,7 @@ describe 'fizz_buzz' do
     expect(fizz_buzz(3)).to eq "Fizz"
   end
 
-  it 'should return the number if a number is not divisible by three' do
+  it 'should return the number if a number is not divisible by three, five or fifteen' do
     expect(fizz_buzz(1)).to eq 1
   end
 
@@ -38,5 +38,8 @@ describe 'fizz_buzz' do
     expect(fizz_buzz(5)).to eq "Buzz"
   end
 
+  it 'should return "FizzBuzz" if a number is divisible by fifteen' do
+    expect(fizz_buzz(15)).to eq "FizzBuzz"
+  end
 end
 
