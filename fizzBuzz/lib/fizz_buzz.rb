@@ -22,5 +22,9 @@ end
 
 # Method that returns 'Fizz'
 def fizz_buzz(number)
-  return "Fizz" if is_divisible_by_three?(number)
+  if is_divisible_by_three?(number)
+    return "Fizz"
+  else
+    return number
+  end
 end
