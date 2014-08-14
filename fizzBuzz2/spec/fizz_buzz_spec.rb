@@ -27,7 +27,7 @@ describe 'fizz_buzz' do
   end
 
   it 'should return "Fizz" if the number is divisible by three' do
-    expect(fizz(3)).to eq "Fizz"
+    expect(fizz_buzz(3)).to eq "Fizz"
   end
 
 end

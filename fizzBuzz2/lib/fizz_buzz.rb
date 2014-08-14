@@ -16,6 +16,6 @@ def is_divisible_by?(number, divisor)
   number % divisor == 0
 end
 
-def fizz(number)
-  
+def fizz_buzz(number)
+ return "Fizz" if is_divisible_by_three?(number)
 end
