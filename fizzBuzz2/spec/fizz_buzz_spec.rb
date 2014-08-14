@@ -10,4 +10,8 @@ describe 'fizz_buzz' do
     expect(is_divisible_by_three?(1)).to eq false
   end
 
+  it 'should know that five is divisible by five' do
+    expect(is_divisible_by_five?(5)).to eq true
+  end
+
 end
