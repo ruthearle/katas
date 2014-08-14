@@ -34,4 +34,8 @@ describe 'fizz_buzz' do
     expect(fizz_buzz(5)).to eq "Buzz"
   end
 
+  it 'should return "FizzBuzz" if the numbr is divisible by fifteen' do
+    expect(fizz_buzz(15)).to eq "FizzBuzz"
+  end
+
 end
